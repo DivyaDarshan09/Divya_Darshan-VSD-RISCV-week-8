@@ -16,6 +16,13 @@
 SPEF bridges the gap between layout parasitics and accurate timing analysis.
 
 ---
+## vsdbabysoc.spef file Screenshot
+
+![s](.Screenshots/spef.jpg)
+
+- It contains the parasitic information (resistance, capacitance, and sometimes inductance) of the design (Here it is VSDBabySoC).
+
+---
 ## Steps to do SPEF Based Timing Analysis
 
 ```bash
@@ -50,7 +57,7 @@ report_checks -path_delay min
 ```
 ---
 
-**Screenshot:** Terminal output+
+**Screenshot:** Terminal output
 
 ![s](.Screenshots/terminal.jpg)
 
